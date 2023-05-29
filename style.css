@@ -1,0 +1,24 @@
+#game-board {
+    position: relative;
+    border: 1px solid #000;
+}
+  
+.cell {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: #000;
+}
+
+.food {
+    background-color: #f00;
+}
+
+#scoreboard {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
